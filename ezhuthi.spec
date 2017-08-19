@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['ezhuthi.py'],
-             pathex=['c:\\Users\\muthu\\devel\\ezhil-editor-raw'],
+             pathex=['c:\\Users\\muthu\\devel\\Ezhil-Windows\\'],
              binaries=[],
              datas=[('res/editor.glade', 'res'), ('res/helper.glade', 'res'), ('res/img/ezhil_square_2015_128px.png', 'res/img'), ('res/img/small-ezhil-splash-5.png', 'res/img')],
              hiddenimports=[],

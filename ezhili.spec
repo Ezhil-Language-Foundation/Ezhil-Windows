@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['bin\\ezhili.py'],
-             pathex=['c:\\Users\\muthu\\devel\\ezhil-lang\\editor'],
+a = Analysis(['..\\ezhili.py'],
+             pathex=['c:\\Users\\muthu\\devel\\ezhil-windows'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           debug=False,
           strip=False,
           upx=True,
-          console=True , icon='ezhil16.ico')
+          console=True , icon='ezhil.ico')
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
